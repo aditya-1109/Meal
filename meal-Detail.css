@@ -1,0 +1,55 @@
+#background{
+    background-color: rgb(219, 113, 32);
+    height: auto;
+    padding: 3%;
+    background-image: radial-gradient(rgb(219, 113, 32), rgb(200, 200, 92));
+}
+
+#title{
+    font-family:cursive;
+    display: inline-block;
+    color:brown;
+    text-align: left;
+    font-size: 2rem;
+    margin-top: -5%;
+}
+
+#favourite{
+    float: right;
+    background-color:  rgb(200, 200, 92);
+    color: white;
+    padding: 2%;
+    font-family: fantasy;
+    border: none;
+    margin-left: 2%;
+    border-radius: 20%;
+}
+
+#Home-button{
+    float: right;
+    background-color:  rgb(200, 200, 92);
+    color: white;
+    padding: 2%;
+    font-family: fantasy;
+    margin-left: 2%;
+    border: none;
+    border-radius: 20%;
+}
+
+/* content designing */
+
+#content{
+    display: flex;
+}
+
+
+.image{
+    width: 40%rem;
+    height: 20rem;
+    border: brown solid 0.1rem;
+}
+
+.instruction{
+    font-size: large;
+    margin-left: 3%;
+}

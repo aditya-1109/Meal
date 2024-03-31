@@ -1,0 +1,105 @@
+#background{
+    background-color: rgb(219, 113, 32);
+    height: fit-content;
+    padding: 3%;
+    background-image: radial-gradient(rgb(219, 113, 32), rgb(200, 200, 92));
+}
+
+#title{
+    font-family:cursive;
+    color:brown;
+    text-align: center;
+    font-size: 4rem;
+}
+
+#search-bar{
+    text-align: center;
+    margin-bottom: 3%;
+    input{
+        font-size: 2rem;
+        border: solid brown 2rem;
+        background-image: linear-gradient(brown, rgb(200, 200, 92));
+    }
+    button{
+        font-size: 2rem;
+        margin: 2%;
+        background-color: brown;
+        color: rgb(200, 200, 92);
+    }
+}
+
+#favourite{
+    float: right;
+    background-color:  rgb(200, 200, 92);
+    color: white;
+    padding: 2%;
+    font-family: fantasy;
+    border: none;
+    margin-left: 2%;
+    border-radius: 20%;
+}
+
+#Home-button{
+    float: right;
+    background-color:  rgb(200, 200, 92);
+    color: white;
+    padding: 2%;
+    font-family: fantasy;
+    margin-left: 2%;
+    border: none;
+    border-radius: 20%;
+}
+
+
+/* meals design */
+
+.mealIcon{
+    display: inline-block;
+    margin: 2%;
+}
+
+.meal-element{
+    width: 15rem;
+    height: fit-content;
+    display: block;
+    position: relative;
+    margin: 1%;
+    border: bisque solid 0.2rem;
+    align-items: center;
+    box-sizing: content-box;
+}
+
+.meal-element:hover{
+    border-color: brown;
+    border-width: 0.5rem;
+    .meal-name{
+        color: red;
+    }
+}
+
+.meal-image{
+    width: fit-content;
+    height: 15rem;
+    position: relative;
+    float: center;
+    justify-content: center;
+}
+
+.meal-name{
+    text-align: center;
+}
+
+/* add-button */
+
+.add-button{
+    position: relative;
+    display: block;
+    border: none;
+    font-size: large;
+    margin-left: 1%;
+}
+
+.add-button:hover{
+    background-color: brown;
+    cursor: pointer;
+}
